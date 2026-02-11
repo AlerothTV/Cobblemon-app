@@ -119,24 +119,24 @@
     let caught = JSON.parse(localStorage.getItem('caught') || "[]").map(String);
     let showOnlyMissing = false;
 
-    // Fonction de traduction robuste
+    // Fonction de traduction corrigée
 function t(cat, key) {
     if (!key) return "";
     const k = key.toLowerCase();
+    const catK = cat.toLowerCase();
     
-    // 1. Chercher dans la catégorie spécifique (ex: translations['ui']['label_search'])
+    // 1. Chercher dans la catégorie spécifiée (ex: translations['ui']['label_search'])
+    if (translations[cat] && translations[cat][key]) {
+        const entry = translations[cat][key];
+        return currentLang === 'fr' ? (entry.fr || key) : (entry.en || key);
+    }
+    // Cas minuscule pour les types/groupes
     if (translations[cat] && translations[cat][k]) {
         const entry = translations[cat][k];
         return currentLang === 'fr' ? (entry.fr || key) : (entry.en || key);
     }
     
-    // 2. Si non trouvé, chercher à la racine au cas où (fallback)
-    if (translations[k]) {
-        const entry = translations[k];
-        return currentLang === 'fr' ? (entry.fr || key) : (entry.en || key);
-    }
-
-    return key; // Retourne la clé brute si rien n'est trouvé
+    return key; 
 }
 
 async function init() {
@@ -151,8 +151,8 @@ async function init() {
         const pTrans = await transRes.json();
         const uTrans = await uiRes.json();
         
-        // Fusion profonde
-        translations = Object.assign({}, pTrans, uTrans);
+        // Fusion simple des objets racine (pokemon, ui, Type, Generation...)
+        translations = { ...pTrans, ...uTrans };
 
         buildFilters();
         render();
