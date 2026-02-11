@@ -172,20 +172,19 @@
         const q = query.toLowerCase();
         
         pokedex.forEach(p => {
-            // 1. ON VÉRIFIE SI LE POKÉMON EST IMPLÉMENTÉ
-            // Si "implemented" est false, on s'arrête là et on passe au suivant
-            if (p.implemented === false) return;
+            // CONDITION STRICTE : On n'affiche QUE si implemented est explicitement à true
+            if (p.implemented !== true) return;
 
             const name = t('pokemon', p.name);
             
-            // 2. FILTRE DE RECHERCHE
+            // Filtre de recherche
             if(q && !name.toLowerCase().includes(q) && !String(p.id).includes(q)) return;
 
             const isC = caught.includes(p.id);
             const card = document.createElement('div');
             card.className = `slot ${isC ? 'is-caught' : 'not-caught'}`;
             
-            // Calcul de la position des types pour l'icône
+            // Calcul position types
             const type1Pos = TYPE_ORDER.indexOf(p.types[0]) * -36;
             const type2Html = p.types[1] ? `<div class="type-icon" style="background-position:${TYPE_ORDER.indexOf(p.types[1]) * -36}px 0"></div>` : '';
 
