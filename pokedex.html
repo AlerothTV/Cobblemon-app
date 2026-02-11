@@ -225,11 +225,14 @@ async function init() {
             if (fOth !== "all" && !p.labels.includes(fOth)) return;
 
             if (fEvo !== "all") {
-                const hasMethod = p.evolutions.some(e => 
-                    e.condition.toLowerCase().replace(/\s+/g, '_').includes(fEvo)
-                );
-                if (!hasMethod) return;
-            }
+    const hasMethod = p.evolutions.some(e => {
+        // Vérifie condition, condition2, condition3...
+        return Object.keys(e).some(key => 
+            key.startsWith('condition') && e[key] === fEvo
+        );
+    });
+    if (!hasMethod) return;
+}
 
             const card = document.createElement('div');
             card.className = `slot ${isC ? 'is-caught' : 'not-caught'}`;
