@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.cdnfonts.com/css/minecraft-ia" rel="stylesheet">
+    <title>Cobblemon Pokédex - Yellow Version</title>
+    <style>
+        :root { 
+            --font-poke: 'Minecraft', 'Courier New', monospace;
+            --sb-track-color: #3a96b6;
+            --sb-thumb-color: #2e7891;
+            --accent-color: #7ee7e5;
+        }
+        
+        body, html { 
+            margin: 0; padding: 0; height: 100vh; overflow: hidden; background: grey; 
+            font-family: var(--font-poke); letter-spacing: 2px;
+            display: flex; justify-content: center; align-items: center;
+        }
+
+        .pokedex-container { 
+            display: flex; flex-direction: column; height: calc(100vh - 60px); 
+            width: calc(100vw - 60px); max-width: 1800px; margin: 30px auto;
+            image-rendering: pixelated; position: relative;
+        }
+
+        /* Scrollbar Custom */
+        .screen::-webkit-scrollbar { width: 10px; }
+        .screen::-webkit-scrollbar-track { background: var(--sb-track-color); border-radius: 5px; }
+        .screen::-webkit-scrollbar-thumb { background: var(--sb-thumb-color); border-radius: 5px; border: 2px solid #7ee7e5; }
+
+        /* Structure Jaune */
+        .row-top { display: flex; height: 74px; flex-shrink: 0; }  
+        .top-1 { width: 101px; background: url("img/pokedex/jaune/jaune_03.png") no-repeat; }
+        .top-2, .top-8 { flex-grow: 1; background: url("img/pokedex/jaune/jaune_05.png") repeat-x; }
+        .top-3 { width: 48px; background: url("img/pokedex/jaune/jaune_06.png") no-repeat; }
+        .top-4, .top-6 { flex-grow: 1; background: url("img/pokedex/jaune/jaune_07.png") repeat-x; }
+        .top-5 { width: 24px; background: url("img/pokedex/jaune/jaune_09.png") no-repeat; }
+        .top-7 { width: 48px; background: url("img/pokedex/jaune/jaune_11.png") no-repeat; }
+        .top-9 { width: 101px; background: url("img/pokedex/jaune/jaune_13.png") no-repeat; }
+        
+        .row-middle { display: flex; flex-grow: 1; overflow: hidden; }
+        .side-column { display: flex; flex-direction: column; width: 101px; flex-shrink: 0; }
+        .side-repeat { flex-grow: 1; background-repeat: repeat-y; }
+        .g-top { height: 131px; background-image: url("img/pokedex/jaune/jaune_15.png"); }
+        .g-mid { background-image: url("img/pokedex/jaune/jaune_22.png"); }
+        .g-bot { height: 131px; background-image: url("img/pokedex/jaune/jaune_24.png"); }
+        .d-top { height: 131px; background-image: url("img/pokedex/jaune/jaune_19.png"); }
+        .d-mid { background-image: url("img/pokedex/jaune/jaune_23.png"); }
+        .d-bot { height: 131px; background-image: url("img/pokedex/jaune/jaune_25.png"); }
+
+        .screen { 
+            flex-grow: 1; background-color: #3a96b6; overflow-y: auto; padding: 25px; 
+            border: 3px solid #7ee7e5; outline: 10px solid #3a96b6; margin-top: 10px; height: 100%;
+        }
+
+        /* Filtres */
+        .filter-bar { 
+            background: rgba(0,0,0,0.3); padding: 15px; margin-bottom: 30px; 
+            display: flex; flex-wrap: wrap; gap: 15px; border-radius: 4px; color: white; align-items: center;
+        }
+        .filter-bar input, .filter-bar select, .filter-bar button {
+            background: #7ee7e5; border: 2px solid #2e7891; padding: 8px; font-family: sans-serif; font-weight: bold;
+        }
+
+        /* Grille Pokémon */
+        .pokedex-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 30px; }
+        .slot { display: flex; flex-direction: column; align-items: center; color: white; text-align: center; position: relative; transition: transform 0.2s; cursor: pointer; }
+        .slot:hover { transform: translateY(-5px); }
+        .slot-background { background: #70dfe8; border: 4px solid #84feff; border-radius: 6px; padding: 20px; width: 140px; box-shadow: 6px 6px 0px rgba(0,0,0,0.2); position: relative; }
+        
+        .catch-trigger {
+            position: absolute; top: -10px; right: -10px; width: 44px; height: 42px;
+            background: url("img/pokedex/caught_seen_icon.png") no-repeat;
+            background-size: 44px auto; background-position: 0 0; z-index: 10;
+        }
+        .is-caught .catch-trigger { background-position: 0px -40px; }
+        .is-caught .slot-background { background: #c18e27; border-color: #fae05d; }
+        .is-caught .slot-name { color: #ffd700; }
+
+        .slot img { width: 120px; height: 120px; object-fit: contain; }
+        .not-caught img { filter: brightness(0); opacity: 0.6; }
+        .slot-id { font-size: 24px; margin-top: 5px; }
+        .slot-name { font-size: 14px; margin-top: 12px; text-shadow: 2px 2px 0px #000; text-transform: uppercase; width: 160px; }
+
+        /* Types */
+        .types-container { display: flex; justify-content: center; gap: 5px; margin-top: 8px; height: 36px; }
+        .type-icon { 
+            display: inline-block; width: 36px; height: 36px; 
+            background-image: url("img/pokedex/types.png");
+            background-size: auto 36px; background-repeat: no-repeat;
+        }
+
+        /* Modal Original */
+        #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 100; justify-content: center; align-items: center; }
+        .modal-content { background: #3a96b6; border: 5px solid var(--accent-color); padding: 30px; width: 80%; max-width: 800px; color: white; display: flex; gap: 20px; position: relative; }
+        .close-modal { position: absolute; top: 10px; right: 10px; cursor: pointer; font-size: 24px; }
+        
+        .row-bottom { display: flex; height: 61px; flex-shrink: 0; }
+        .bot-1 { width: 101px; background: url("img/pokedex/jaune/jaune_26.png") no-repeat; }
+        .bot-2, .bot-4 { flex-grow: 1; background: url("img/pokedex/jaune/jaune_27.png") repeat-x; }
+        .bot-3 { width: 24px; background: url("img/pokedex/jaune/jaune_29.png") no-repeat; }
+        .bot-5 { width: 101px; background: url("img/pokedex/jaune/jaune_30.png") no-repeat; }
+    </style>
+</head>
+<body>
+
+<div class="pokedex-container">
+    <div class="row-top">
+        <div class="top-1"></div><div class="top-2"></div><div class="top-3"></div><div class="top-4"></div><div class="top-5"></div><div class="top-6"></div><div class="top-7"></div><div class="top-8"></div><div class="top-9"></div>
+    </div>
+    <div class="row-middle">
+        <div class="side-column"><div class="g-top"></div><div class="side-repeat g-mid"></div><div class="g-bot"></div></div>
+        <div class="screen">
+            <div class="filter-bar" id="filters"></div>
+            <div class="pokedex-grid" id="grid"></div>
+        </div>
+        <div class="side-column"><div class="d-top"></div><div class="side-repeat d-mid"></div><div class="d-bot"></div></div>
+    </div>
+    <div class="row-bottom">
+        <div class="bot-1"></div><div class="bot-2"></div><div class="bot-3"></div><div class="bot-4"></div><div class="bot-5"></div>
+    </div>
+</div>
+
+<div id="modal"><div class="modal-content" id="modal-body"></div></div>
+
+<script>
+    // Configuration des types (ordre de ton image types.png)
+    const TYPE_ORDER = ["normal","fire","water","grass","electric","ice","fighting","poison","ground","flying","psychic","bug","rock","ghost","dragon","dark","steel","fairy"];
+    
+    let pokedex = [];
+    let translations = {};
+    let currentLang = localStorage.getItem('lang') || 'fr';
+    let caught = JSON.parse(localStorage.getItem('caught') || "[]");
+
+    async function init() {
+        try {
+            // Utilise des chemins relatifs ou des URLs RAW de GitHub pour éviter CORB
+            const [dataRes, transRes] = await Promise.all([
+                fetch('Data/pokedex_data.json'),
+                fetch('Data/translations_data.json')
+            ]);
+            pokedex = await dataRes.json();
+            translations = await transRes.json();
+            buildFilters();
+            render();
+        } catch (e) { console.error("Erreur CORB ou Fichier :", e); }
+    }
+
+    function t(cat, key) {
+        if(!key) return "";
+        try { return translations[currentLang][cat][key.toLowerCase()] || key; } 
+        catch { return key; }
+    }
+
+    function buildFilters() {
+        const f = document.getElementById('filters');
+        f.innerHTML = `
+            <input type="text" placeholder="${t('ui','search')}..." oninput="render(this.value)">
+            <select onchange="currentLang=this.value; localStorage.setItem('lang',this.value); buildFilters(); render();">
+                <option value="fr" ${currentLang==='fr'?'selected':''}>FR</option>
+                <option value="en" ${currentLang==='en'?'selected':''}>EN</option>
+            </select>
+            <div style="margin-left:auto">${caught.length} / ${pokedex.length} ${t('ui','captured') || 'Capturés'}</div>
+        `;
+    }
+
+    function render(query = "") {
+        const grid = document.getElementById('grid');
+        grid.innerHTML = "";
+        const q = query.toLowerCase();
+        
+        pokedex.forEach(p => {
+            const name = t('pokemon', p.name);
+            if(q && !name.toLowerCase().includes(q) && !String(p.id).includes(q)) return;
+
+            const isC = caught.includes(p.id);
+            const card = document.createElement('div');
+            card.className = `slot ${isC ? 'is-caught' : 'not-caught'}`;
+            
+            // Calcul de la position des types
+            const type1Pos = TYPE_ORDER.indexOf(p.types[0]) * -36;
+            const type2Html = p.types[1] ? `<div class="type-icon" style="background-position:${TYPE_ORDER.indexOf(p.types[1]) * -36}px 0"></div>` : '';
+
+            card.innerHTML = `
+                <div class="slot-background" onclick="showDetails(${p.id})">
+                    <div class="catch-trigger" onclick="event.stopPropagation(); toggleCatch(${p.id})"></div>
+                    <img src="img/pokemon/${p.id}.webp" onerror="this.src='img/pokemon/0.webp'">
+                    <div class="slot-id">#${p.id}</div>
+                    <div class="types-container">
+                        <div class="type-icon" style="background-position:${type1Pos}px 0"></div>
+                        ${type2Html}
+                    </div>
+                </div>
+                <div class="slot-name">${name}</div>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    function toggleCatch(id) {
+        if(caught.includes(id)) caught = caught.filter(i => i !== id);
+        else caught.push(id);
+        localStorage.setItem('caught', JSON.stringify(caught));
+        render();
+        buildFilters();
+    }
+
+    function showDetails(id) {
+        const p = pokedex.find(x => x.id === id);
+        const modal = document.getElementById('modal');
+        const body = document.getElementById('modal-body');
+        
+        body.innerHTML = `
+            <span class="close-modal" onclick="document.getElementById('modal').style.display='none'">X</span>
+            <div style="flex:1; text-align:center">
+                <img src="img/pokemon/${p.id}.webp" style="width:200px">
+                <h2>${t('pokemon', p.name)}</h2>
+                <p>${t('descriptions', p.name) || ""}</p>
+            </div>
+            <div style="flex:1">
+                <h3>STATS</h3>
+                ${Object.entries(p.baseStats).map(([s, v]) => `<div>${s.toUpperCase()}: ${v}</div>`).join('')}
+            </div>
+        `;
+        modal.style.display = 'flex';
+    }
+
+    init();
+</script>
+</body>
+</html>
