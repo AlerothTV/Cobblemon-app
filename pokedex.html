@@ -119,37 +119,47 @@
     let caught = JSON.parse(localStorage.getItem('caught') || "[]").map(String);
     let showOnlyMissing = false;
 
-    async function init() {
-        try {
-            const [dataRes, transRes, uiRes] = await Promise.all([
-                fetch('Data/pokedex_data.json'),
-                fetch('Data/translations_data.json'),
-                fetch('Data/translations_ui.json')
-            ]);
-            
-            pokedex = await dataRes.json();
-            const pTrans = await transRes.json();
-            const uTrans = await uiRes.json();
-            
-            // Fusion des fichiers de traduction
-            translations = { ...pTrans, ...uTrans };
-
-            buildFilters();
-            render();
-        } catch (e) { console.error("Erreur de chargement :", e); }
+    // Fonction de traduction robuste
+function t(cat, key) {
+    if (!key) return "";
+    const k = key.toLowerCase();
+    
+    // 1. Chercher dans la catégorie spécifique (ex: translations['ui']['label_search'])
+    if (translations[cat] && translations[cat][k]) {
+        const entry = translations[cat][k];
+        return currentLang === 'fr' ? (entry.fr || key) : (entry.en || key);
+    }
+    
+    // 2. Si non trouvé, chercher à la racine au cas où (fallback)
+    if (translations[k]) {
+        const entry = translations[k];
+        return currentLang === 'fr' ? (entry.fr || key) : (entry.en || key);
     }
 
-    function t(cat, key) {
-        if(!key) return "";
-        const k = key.toLowerCase();
-        try {
-            const entry = translations[cat][k];
-            if (entry) {
-                return currentLang === 'fr' ? (entry.fr || key) : (entry.en || key);
-            }
-            return key;
-        } catch { return key; }
+    return key; // Retourne la clé brute si rien n'est trouvé
+}
+
+async function init() {
+    try {
+        const [dataRes, transRes, uiRes] = await Promise.all([
+            fetch('Data/pokedex_data.json'),
+            fetch('Data/translations_data.json'),
+            fetch('Data/translations_ui.json')
+        ]);
+        
+        pokedex = await dataRes.json();
+        const pTrans = await transRes.json();
+        const uTrans = await uiRes.json();
+        
+        // Fusion profonde
+        translations = Object.assign({}, pTrans, uTrans);
+
+        buildFilters();
+        render();
+    } catch (e) { 
+        console.error("Erreur de chargement JSON:", e); 
     }
+}
 
     function makeOptions(category) {
         let html = `<option value="all">${t('ui', 'Label_All')}</option>`;
