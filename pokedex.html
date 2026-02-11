@@ -104,55 +104,71 @@
     let caught = JSON.parse(localStorage.getItem('caught') || "[]");
 
     async function init() {
-        // Chargement des données locales
-        const [dataRes, transRes] = await Promise.all([
-            fetch('Data/pokedex_data.json'),
-            fetch('Data/translations_data.json')
-        ]);
-        pokedex = await dataRes.json();
-        translations = await transRes.json();
-        
-        buildFilters();
-        render();
+        try {
+            // Note : Vérifie bien que le nom du fichier est translations_data.json sur ton GitHub
+            const [dataRes, transRes] = await Promise.all([
+                fetch('Data/pokedex_data.json'),
+                fetch('Data/translations_data.json') 
+            ]);
+            pokedex = await dataRes.json();
+            translations = await transRes.json();
+            
+            buildFilters();
+            render();
+        } catch (e) {
+            console.error("Erreur de chargement : ", e);
+            alert("Erreur de chargement des fichiers JSON. Vérifie les noms des fichiers dans le dossier Data.");
+        }
     }
 
+    // Fonction de traduction améliorée
     function t(cat, key) {
+        if (!key) return "";
+        const k = key.toLowerCase();
         try {
-            return translations[currentLang][cat][key.toLowerCase()] || key;
-        } catch { return key; }
+            // On cherche la traduction, sinon on renvoie la clé avec une majuscule
+            return translations[currentLang][cat][k] || key.charAt(0).toUpperCase() + key.slice(1);
+        } catch { 
+            return key; 
+        }
     }
 
     function buildFilters() {
         const f = document.getElementById('filters');
+        // Traduction dynamique des labels de l'UI
+        const searchLabel = t('ui', 'search') || "Rechercher";
+        const capturedLabel = t('ui', 'captured') || "Capturés";
+
         f.innerHTML = `
-            <input type="text" placeholder="${t('ui','search')}..." oninput="render(this.value)">
+            <input type="text" id="searchInput" placeholder="${searchLabel}..." oninput="render(this.value)">
             <select onchange="currentLang=this.value; localStorage.setItem('lang',this.value); buildFilters(); render();">
-                <option value="fr" ${currentLang==='fr'?'selected':''}>FR</option>
-                <option value="en" ${currentLang==='en'?'selected':''}>EN</option>
+                <option value="fr" ${currentLang==='fr'?'selected':''}>Français</option>
+                <option value="en" ${currentLang==='en'?'selected':''}>English</option>
             </select>
-            <span style="margin-left:auto">${caught.length} / ${pokedex.length} ${t('ui','captured')}</span>
+            <span style="margin-left:auto" id="counter">${caught.length} / ${pokedex.length} ${capturedLabel}</span>
         `;
     }
 
     function render(query = "") {
         const grid = document.getElementById('grid');
         grid.innerHTML = "";
+        const q = query.toLowerCase();
         
         pokedex.forEach(p => {
             const name = t('pokemon', p.name);
-            if(query && !name.toLowerCase().includes(query.toLowerCase()) && !String(p.id).includes(query)) return;
+            const idStr = String(p.id);
+
+            // Recherche par nom ou par numéro d'ID
+            if(q && !name.toLowerCase().includes(q) && !idStr.includes(q)) return;
 
             const isC = caught.includes(p.id);
             const card = document.createElement('div');
             card.className = `slot ${isC ? 'is-caught' : ''}`;
-            card.onclick = (e) => {
-                if(e.target.className === 'catch-trigger') toggleCatch(p.id);
-                else showDetails(p);
-            };
-
+            
+            // On sépare le clic sur la Pokéball du clic sur la carte
             card.innerHTML = `
-                <div class="catch-trigger"></div>
-                <div class="slot-background">
+                <div class="catch-trigger" onclick="event.stopPropagation(); toggleCatch(${p.id})"></div>
+                <div class="slot-background" onclick="showDetails(${JSON.stringify(p).replace(/"/g, '&quot;')})">
                     <img src="img/pokemon/${p.id}.webp" onerror="this.src='img/pokemon/0.webp'">
                     <div style="font-size:18px">#${p.id}</div>
                 </div>
@@ -166,7 +182,7 @@
         if(caught.includes(id)) caught = caught.filter(i => i !== id);
         else caught.push(id);
         localStorage.setItem('caught', JSON.stringify(caught));
-        render();
+        render(document.getElementById('searchInput')?.value);
         buildFilters();
     }
 
@@ -175,31 +191,40 @@
         const body = document.getElementById('modal-body');
         
         let dropsHtml = p.drops.map(d => `
-            <div>
-                <img class="drop-icon" src="img/item/${d.namespace}/${d.item}.png">
-                ${t('items', d.item)} (${d.range}) - ${d.chance}%
+            <div style="margin: 5px 0; display: flex; align-items: center;">
+                <img class="drop-icon" src="img/item/${d.namespace}/${d.item}.png" onerror="this.src='img/item/cobblemon/question_mark.png'">
+                <span>${t('items', d.item)} (x${d.range}) - <span style="color:#7ee7e5">${d.chance}%</span></span>
             </div>
         `).join('');
 
         body.innerHTML = `
-            <span class="close-modal" onclick="document.getElementById('modal').style.display='none'">X</span>
+            <span class="close-modal" onclick="document.getElementById('modal').style.display='none'">×</span>
             <div style="flex:1; text-align:center">
-                <img src="img/pokemon/${p.id}.webp" style="width:200px">
-                <h2>${t('pokemon', p.name)}</h2>
-                <p>${t('descriptions', p.name) || ""}</p>
+                <img src="img/pokemon/${p.id}.webp" style="width:200px" onerror="this.src='img/pokemon/0.webp'">
+                <h2 style="text-transform: uppercase;">${t('pokemon', p.name)}</h2>
+                <p style="font-size: 14px; color: #eee; line-height: 1.4;">${t('descriptions', p.name) || ""}</p>
             </div>
             <div style="flex:1">
-                <h3>${t('ui', 'stats')}</h3>
+                <h3 style="border-bottom: 2px solid #7ee7e5;">${t('ui', 'stats').toUpperCase()}</h3>
                 ${Object.entries(p.baseStats).map(([s, v]) => `
-                    <div>${t('ui', s).toUpperCase()}: ${v}</div>
-                    <div class="stat-bar-bg"><div class="stat-bar-fill" style="width:${(v/255)*100}%"></div></div>
+                    <div style="display:flex; justify-content:space-between; font-size:12px">
+                        <span>${t('ui', s).toUpperCase()}</span>
+                        <span>${v}</span>
+                    </div>
+                    <div class="stat-bar-bg"><div class="stat-bar-fill" style="width:${Math.min((v/200)*100, 100)}%"></div></div>
                 `).join('')}
                 
-                <h3 style="margin-top:20px">${t('ui', 'drops') || 'Drops'}</h3>
-                ${dropsHtml || "Aucun drop"}
+                <h3 style="margin-top:20px; border-bottom: 2px solid #7ee7e5;">DROPS</h3>
+                <div style="font-size: 13px;">${dropsHtml || "Aucun drop"}</div>
             </div>
         `;
         modal.style.display = 'flex';
+    }
+
+    // Fermer le modal en cliquant à côté
+    window.onclick = function(event) {
+        const modal = document.getElementById('modal');
+        if (event.target == modal) modal.style.display = "none";
     }
 
     init();
