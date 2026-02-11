@@ -23,6 +23,7 @@
             width: calc(100vw - 40px); max-width: 1800px; image-rendering: pixelated; position: relative;
         }
 
+        /* --- STRUCTURE JAUNE (Inchangée) --- */
         .row-top { display: flex; height: 74px; flex-shrink: 0; }  
         .top-1 { width: 101px; background: url("img/pokedex/jaune/jaune_03.png") no-repeat; }
         .top-2, .top-8 { flex-grow: 1; background: url("img/pokedex/jaune/jaune_05.png") repeat-x; }
@@ -47,7 +48,7 @@
             border: 3px solid #7ee7e5; outline: 10px solid #3a96b6; margin-top: 10px;
         }
 
-        /* Barre de filtres */
+        /* --- FILTRES --- */
         .filter-bar { 
             background: rgba(0,0,0,0.3); padding: 12px; margin-bottom: 20px; 
             display: flex; flex-wrap: wrap; gap: 10px; border-radius: 4px; color: white; align-items: center;
@@ -61,26 +62,25 @@
         .counter-box { margin-left: auto; display: flex; align-items: center; gap: 8px; background: rgba(0,0,0,0.4); padding: 5px 12px; border-radius: 20px; }
         .counter-icon { width: 20px; height: 20px; background: url("img/pokedex/caught_seen_icon.png") no-repeat; background-size: 20px auto; background-position: 0 -20px; }
 
-        /* Grille */
+        /* --- GRILLE & SILHOUETTES --- */
         .pokedex-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 20px; }
         .slot { display: flex; flex-direction: column; align-items: center; cursor: pointer; position: relative; transition: 0.2s; }
         .slot:hover { transform: translateY(-5px); }
         .slot-background { background: #70dfe8; border: 4px solid #84feff; padding: 15px; width: 120px; text-align: center; box-shadow: 4px 4px 0px rgba(0,0,0,0.2); position: relative; border-radius: 6px; }
-        .slot img { width: 100px; height: 100px; object-fit: contain; }
-        .slot-name { margin-top: 10px; color: white; text-shadow: 2px 2px 0px #000; text-transform: uppercase; font-size: 11px; }
+        
+        /* ICI LE FILTRE POUR LES SILHOUETTES */
+        .not-caught img { filter: brightness(0); opacity: 0.6; }
+        
+        .slot img { width: 100px; height: 100px; object-fit: contain; image-rendering: pixelated; }
+        .slot-name { margin-top: 10px; color: white; text-shadow: 2px 2px 0px #000; text-transform: uppercase; font-size: 11px; width: 140px; text-align: center; }
 
         .catch-trigger { position: absolute; top: -8px; right: -8px; width: 32px; height: 32px; background: url("img/pokedex/caught_seen_icon.png") no-repeat; background-size: 32px auto; z-index: 5; }
         .is-caught .catch-trigger { background-position: 0 -32px; }
         .is-caught .slot-background { background: #c18e27; border-color: #fae05d; }
 
         /* Types */
-        .types-container { display: flex; justify-content: center; gap: 3px; margin-top: 5px; }
+        .types-container { display: flex; justify-content: center; gap: 3px; margin-top: 5px; height: 30px; }
         .type-icon { width: 30px; height: 30px; background-image: url("img/pokedex/types.png"); background-size: auto 30px; background-repeat: no-repeat; }
-
-        /* Modal */
-        #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 100; justify-content: center; align-items: center; }
-        .modal-content { background: #3a96b6; border: 5px solid var(--accent-color); padding: 30px; width: 80%; max-width: 800px; color: white; display: flex; gap: 20px; position: relative; }
-        .close-modal { position: absolute; top: 10px; right: 10px; cursor: pointer; font-size: 24px; }
 
         .row-bottom { display: flex; height: 61px; flex-shrink: 0; }
         .bot-1 { width: 101px; background: url("img/pokedex/jaune/jaune_26.png") no-repeat; }
@@ -111,9 +111,7 @@
     </div>
 </div>
 
-<div id="modal"><div class="modal-content" id="modal-body"></div></div>
-
-<script>
+<div id="modal"></div> <script>
     const TYPE_ORDER = ["normal","fire","water","grass","electric","ice","fighting","poison","ground","flying","psychic","bug","rock","ghost","dragon","dark","steel","fairy"];
     
     let pokedex = [];
@@ -132,50 +130,53 @@
             translations = await transRes.json();
             buildFilters();
             render();
-        } catch (e) { console.error("Erreur chargement :", e); }
+        } catch (e) { console.error("Erreur :", e); }
     }
 
+    // FONCTION DE TRADUCTION AMÉLIORÉE
     function t(cat, key) {
         if(!key) return "";
-        try { return translations[currentLang][cat][key.toLowerCase()] || key; } 
-        catch { return key; }
-    }
-
-    function makeOptions(category, list) {
-        let html = `<option value="all">${t('ui', 'all')}</option>`;
-        list.forEach(item => {
-            html += `<option value="${item}">${t(category, item)}</option>`;
-        });
-        return html;
+        try {
+            const data = translations[cat][key.toLowerCase()];
+            return currentLang === 'fr' ? (data.fr || key) : (data.en || key);
+        } catch {
+            // Fallback si la catégorie UI n'est pas structurée comme les Pokémon
+            try { return translations[currentLang][cat][key.toLowerCase()] || key; } catch { return key; }
+        }
     }
 
     function buildFilters() {
         const f = document.getElementById('filters');
-        // On calcule le total uniquement sur les Pokémon implémentés
         const totalImpl = pokedex.filter(p => p.implemented === true).length;
         
         f.innerHTML = `
-            <input type="text" id="searchInput" placeholder="${t('ui','search')}..." oninput="render()">
+            <input type="text" id="searchInput" placeholder="${t('ui','Label_search')}..." oninput="render()">
             
-            <div class="filter-group">
-                <select onchange="currentLang=this.value; localStorage.setItem('lang',this.value); buildFilters(); render();">
-                    <option value="fr" ${currentLang==='fr'?'selected':''}>FR</option>
-                    <option value="en" ${currentLang==='en'?'selected':''}>EN</option>
+            <select onchange="currentLang=this.value; localStorage.setItem('lang',this.value); buildFilters(); render();">
+                <option value="fr" ${currentLang==='fr'?'selected':''}>FR</option>
+                <option value="en" ${currentLang==='en'?'selected':''}>EN</option>
+            </select>
+
+            <div class="filter-group"><span>${t('ui','Label_Generation')}:</span>
+                <select id="fGen" onchange="render()">
+                    <option value="all">${t('ui','Label_All')}</option>
+                    <option value="gen1">Gen 1</option><option value="gen2">Gen 2</option>
+                    <option value="gen3">Gen 3</option><option value="gen4">Gen 4</option>
+                    <option value="gen5">Gen 5</option><option value="gen6">Gen 6</option>
+                    <option value="gen7">Gen 7</option><option value="gen8">Gen 8</option>
+                    <option value="gen9">Gen 9</option>
                 </select>
             </div>
 
-            <div class="filter-group"><span>GEN:</span><select id="fGen" onchange="render()">${makeOptions('ui', ['gen1','gen2','gen3','gen4','gen5','gen6','gen7','gen8','gen9'])}</select></div>
-            <div class="filter-group"><span>TYPE:</span><select id="fType" onchange="render()">${makeOptions('ui', TYPE_ORDER)}</select></div>
-            <div class="filter-group"><span>EGG:</span><select id="fEgg" onchange="render()">${makeOptions('ui', ['monster','bug','flying','field','fairy','grass','human_like','water_1','water_2','water_3','mineral','amorphous','dragon','ditto','no_eggs_discovered'])}</select></div>
-            <div class="filter-group"><span>EVO:</span><select id="fEvo" onchange="render()">
-                <option value="all">${t('ui','all')}</option>
-                <option value="base">Base</option>
-                <option value="middle">Middle</option>
-                <option value="final">Final</option>
-            </select></div>
+            <div class="filter-group"><span>${t('ui','Label_Type')}:</span>
+                <select id="fType" onchange="render()">
+                    <option value="all">${t('ui','Label_All')}</option>
+                    ${TYPE_ORDER.map(type => `<option value="${type}">${t('ui', type)}</option>`).join('')}
+                </select>
+            </div>
 
             <button onclick="showOnlyMissing=!showOnlyMissing; this.classList.toggle('filter-active'); render();">
-                ${t('ui','captured')}: ${showOnlyMissing?'MISSING':'ALL'}
+                ${t('ui','Label_Captured')}: ${showOnlyMissing?'OFF':'ON'}
             </button>
 
             <div class="counter-box">
@@ -190,44 +191,24 @@
         const query = document.getElementById('searchInput')?.value.toLowerCase() || "";
         const fGen = document.getElementById('fGen')?.value || "all";
         const fType = document.getElementById('fType')?.value || "all";
-        const fEgg = document.getElementById('fEgg')?.value || "all";
-        const fEvo = document.getElementById('fEvo')?.value || "all";
 
         grid.innerHTML = "";
         
         pokedex.forEach(p => {
-            // 1. Filtrer les non-implémentés
             if (p.implemented !== true) return;
 
             const name = t('pokemon', p.name);
             const isC = caught.includes(String(p.id));
 
-            // 2. Filtre "Uniquement manquants"
+            // Filtres
             if (showOnlyMissing && isC) return;
-
-            // 3. Filtre Recherche
-            if(query && !name.toLowerCase().includes(query) && !String(p.id).includes(query)) return;
-
-            // 4. Filtre Génération / Labels
-            if(fGen !== "all" && !p.labels.includes(fGen)) return;
-
-            // 5. Filtre Type
-            if(fType !== "all" && !p.types.includes(fType)) return;
-
-            // 6. Filtre EggGroup
-            if(fEgg !== "all" && !p.eggGroups.includes(fEgg)) return;
-
-            // 7. Filtre Évolution
-            if(fEvo !== "all") {
-                const hasPre = p.preEvolution !== null;
-                const hasNext = p.evolutions && p.evolutions.length > 0;
-                if(fEvo === "base" && (hasPre)) return;
-                if(fEvo === "middle" && (!hasPre || !hasNext)) return;
-                if(fEvo === "final" && (hasNext)) return;
-            }
+            if (query && !name.toLowerCase().includes(query) && !String(p.id).includes(query)) return;
+            if (fGen !== "all" && !p.labels.includes(fGen)) return;
+            if (fType !== "all" && !p.types.includes(fType)) return;
 
             const card = document.createElement('div');
-            card.className = `slot ${isC ? 'is-caught' : ''}`;
+            // On applique la classe not-caught si pas capturé pour la silhouette
+            card.className = `slot ${isC ? 'is-caught' : 'not-caught'}`;
             
             const type1Pos = TYPE_ORDER.indexOf(p.types[0]) * -30;
             const type2Html = p.types[1] ? `<div class="type-icon" style="background-position:${TYPE_ORDER.indexOf(p.types[1]) * -30}px 0"></div>` : '';
@@ -236,7 +217,7 @@
                 <div class="slot-background" onclick="showDetails(${p.id})">
                     <div class="catch-trigger" onclick="event.stopPropagation(); toggleCatch('${p.id}')"></div>
                     <img src="img/pokemon/${p.id}.webp" onerror="this.src='img/pokemon/0.webp'">
-                    <div style="font-size:18px">#${p.id}</div>
+                    <div style="font-size:16px; color:white; margin-top:5px;">#${p.id}</div>
                     <div class="types-container">
                         <div class="type-icon" style="background-position:${type1Pos}px 0"></div>
                         ${type2Html}
@@ -255,28 +236,6 @@
         localStorage.setItem('caught', JSON.stringify(caught));
         render();
         buildFilters();
-    }
-
-    function showDetails(id) {
-        const p = pokedex.find(x => x.id === id);
-        const modal = document.getElementById('modal');
-        const body = document.getElementById('modal-body');
-        
-        body.innerHTML = `
-            <span class="close-modal" onclick="document.getElementById('modal').style.display='none'">X</span>
-            <div style="flex:1; text-align:center">
-                <img src="img/pokemon/${p.id}.webp" style="width:200px">
-                <h2>${t('pokemon', p.name)}</h2>
-                <p>${t('descriptions', p.name) || ""}</p>
-            </div>
-            <div style="flex:1">
-                <h3>STATS</h3>
-                ${Object.entries(p.baseStats).map(([s, v]) => `<div>${s.toUpperCase()}: ${v}</div>`).join('')}
-                <h3 style="margin-top:20px">DROPS</h3>
-                ${p.drops.map(d => `<div>${t('items', d.item)} x${d.range} (${d.chance}%)</div>`).join('') || "None"}
-            </div>
-        `;
-        modal.style.display = 'flex';
     }
 
     init();
