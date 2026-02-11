@@ -165,7 +165,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "poison"
@@ -201,7 +201,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "poison"
@@ -391,7 +391,7 @@
       {
         "id": null,
         "name": "Mega-X",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire",
           "dragon"
@@ -427,7 +427,7 @@
       {
         "id": null,
         "name": "Mega-Y",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire",
           "flying"
@@ -463,7 +463,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire",
           "flying"
@@ -652,7 +652,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -687,7 +687,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -878,7 +878,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug",
           "flying"
@@ -1072,7 +1072,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug",
           "poison"
@@ -1302,7 +1302,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "flying"
@@ -1395,7 +1395,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark",
           "normal"
@@ -1495,7 +1495,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark",
           "normal"
@@ -1836,7 +1836,7 @@
       {
         "id": null,
         "name": "Partner",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric"
         ],
@@ -1863,7 +1863,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric"
         ],
@@ -1889,7 +1889,7 @@
       {
         "id": null,
         "name": "Alola-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric"
         ],
@@ -1983,7 +1983,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "psychic"
@@ -2087,7 +2087,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ice",
           "steel"
@@ -2216,7 +2216,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ice",
           "steel"
@@ -2782,7 +2782,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ice"
         ],
@@ -2891,7 +2891,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ice",
           "fairy"
@@ -3654,7 +3654,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ground",
           "steel"
@@ -3785,7 +3785,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ground",
           "steel"
@@ -3910,7 +3910,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark"
         ],
@@ -3970,7 +3970,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel"
         ],
@@ -4024,7 +4024,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -4108,7 +4108,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark"
         ],
@@ -4449,7 +4449,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire",
           "rock"
@@ -4543,7 +4543,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire",
           "rock"
@@ -4924,7 +4924,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -5138,7 +5138,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting"
         ],
@@ -5513,7 +5513,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "rock",
           "electric"
@@ -5643,7 +5643,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "rock",
           "electric"
@@ -5768,7 +5768,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "rock",
           "electric"
@@ -5886,7 +5886,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -5991,7 +5991,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "fairy"
@@ -6109,7 +6109,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -6238,7 +6238,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water",
           "psychic"
@@ -6274,7 +6274,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "poison",
           "psychic"
@@ -6538,7 +6538,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting"
         ],
@@ -6917,7 +6917,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "poison",
           "dark"
@@ -7010,7 +7010,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "poison",
           "dark"
@@ -7307,7 +7307,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost",
           "poison"
@@ -7343,7 +7343,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost",
           "poison"
@@ -7637,7 +7637,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -7714,7 +7714,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "grass"
@@ -7811,7 +7811,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "grass"
@@ -7930,7 +7930,7 @@
       {
         "id": null,
         "name": "Alola-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "psychic"
@@ -8031,7 +8031,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "dragon"
@@ -8151,7 +8151,7 @@
       {
         "id": null,
         "name": "Alola-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ground"
         ],
@@ -8243,7 +8243,7 @@
       {
         "id": null,
         "name": "Alola",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire",
           "ghost"
@@ -8502,7 +8502,7 @@
       {
         "id": null,
         "name": "Galar-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "poison"
         ],
@@ -8590,7 +8590,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "poison",
           "fairy"
@@ -8914,7 +8914,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -9335,7 +9335,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ice",
           "psychic"
@@ -9648,7 +9648,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug",
           "flying"
@@ -9736,7 +9736,7 @@
       {
         "id": null,
         "name": "Paldea-Combat",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting"
         ],
@@ -9772,7 +9772,7 @@
       {
         "id": null,
         "name": "Paldea-Blaze",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting",
           "fire"
@@ -9809,7 +9809,7 @@
       {
         "id": null,
         "name": "Paldea-Aqua",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting",
           "water"
@@ -9965,7 +9965,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water",
           "dark"
@@ -10066,7 +10066,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water",
           "ice"
@@ -10226,7 +10226,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -10716,7 +10716,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "rock",
           "flying"
@@ -10816,7 +10816,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -10901,7 +10901,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "flying"
@@ -11016,7 +11016,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting",
           "flying"
@@ -11131,7 +11131,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark",
           "flying"
@@ -11431,7 +11431,7 @@
       {
         "id": null,
         "name": "Mega-X",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "fighting"
@@ -11469,7 +11469,7 @@
       {
         "id": null,
         "name": "Mega-Y",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -11737,7 +11737,7 @@
       {
         "id": null,
         "name": "Hisui-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire"
         ],
@@ -11824,7 +11824,7 @@
       {
         "id": null,
         "name": "Hisui-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire"
         ],
@@ -11905,7 +11905,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire",
           "ghost"
@@ -12784,7 +12784,7 @@
       {
         "id": null,
         "name": "Alola-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric"
         ],
@@ -13371,7 +13371,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "dragon"
@@ -14088,7 +14088,7 @@
       {
         "id": null,
         "name": "Paldea",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "poison",
           "ground"
@@ -14414,7 +14414,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "poison",
           "psychic"
@@ -14574,7 +14574,7 @@
       {
         "id": null,
         "name": "B",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14599,7 +14599,7 @@
       {
         "id": null,
         "name": "C",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14624,7 +14624,7 @@
       {
         "id": null,
         "name": "D",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14649,7 +14649,7 @@
       {
         "id": null,
         "name": "E",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14674,7 +14674,7 @@
       {
         "id": null,
         "name": "F",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14699,7 +14699,7 @@
       {
         "id": null,
         "name": "G",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14724,7 +14724,7 @@
       {
         "id": null,
         "name": "H",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14749,7 +14749,7 @@
       {
         "id": null,
         "name": "I",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14774,7 +14774,7 @@
       {
         "id": null,
         "name": "J",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14799,7 +14799,7 @@
       {
         "id": null,
         "name": "K",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14824,7 +14824,7 @@
       {
         "id": null,
         "name": "L",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14849,7 +14849,7 @@
       {
         "id": null,
         "name": "M",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14874,7 +14874,7 @@
       {
         "id": null,
         "name": "N",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14899,7 +14899,7 @@
       {
         "id": null,
         "name": "O",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14924,7 +14924,7 @@
       {
         "id": null,
         "name": "P",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14949,7 +14949,7 @@
       {
         "id": null,
         "name": "Q",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14974,7 +14974,7 @@
       {
         "id": null,
         "name": "R",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -14999,7 +14999,7 @@
       {
         "id": null,
         "name": "S",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -15024,7 +15024,7 @@
       {
         "id": null,
         "name": "T",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -15049,7 +15049,7 @@
       {
         "id": null,
         "name": "U",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -15074,7 +15074,7 @@
       {
         "id": null,
         "name": "V",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -15099,7 +15099,7 @@
       {
         "id": null,
         "name": "W",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -15124,7 +15124,7 @@
       {
         "id": null,
         "name": "X",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -15149,7 +15149,7 @@
       {
         "id": null,
         "name": "Y",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -15174,7 +15174,7 @@
       {
         "id": null,
         "name": "Z",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -15199,7 +15199,7 @@
       {
         "id": null,
         "name": "!",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -15224,7 +15224,7 @@
       {
         "id": null,
         "name": "?",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -15657,7 +15657,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel",
           "ground"
@@ -15859,7 +15859,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark",
           "poison"
@@ -15937,7 +15937,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug",
           "steel"
@@ -16070,7 +16070,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug",
           "fighting"
@@ -16176,7 +16176,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting",
           "poison"
@@ -16663,7 +16663,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost"
         ],
@@ -17121,7 +17121,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark",
           "fire"
@@ -17866,7 +17866,7 @@
   {
     "id": 243,
     "name": "Raikou",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "electric"
     ],
@@ -17910,7 +17910,7 @@
   {
     "id": 244,
     "name": "Entei",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fire"
     ],
@@ -17960,7 +17960,7 @@
   {
     "id": 245,
     "name": "Suicune",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "water"
     ],
@@ -18164,7 +18164,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "rock",
           "dark"
@@ -18300,7 +18300,7 @@
   {
     "id": 251,
     "name": "Celebi",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic",
       "grass"
@@ -18505,7 +18505,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "dragon"
@@ -18720,7 +18720,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire",
           "fighting"
@@ -18920,7 +18920,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water",
           "ground"
@@ -19124,7 +19124,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark",
           "normal"
@@ -19209,7 +19209,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark",
           "normal"
@@ -19250,7 +19250,7 @@
   {
     "id": 265,
     "name": "Wurmple",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug"
     ],
@@ -19308,7 +19308,7 @@
   {
     "id": 266,
     "name": "Silcoon",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug"
     ],
@@ -19362,7 +19362,7 @@
   {
     "id": 267,
     "name": "Beautifly",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug",
       "flying"
@@ -19418,7 +19418,7 @@
   {
     "id": 268,
     "name": "Cascoon",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug"
     ],
@@ -19472,7 +19472,7 @@
   {
     "id": 269,
     "name": "Dustox",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug",
       "poison"
@@ -20326,7 +20326,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "fairy"
@@ -21253,7 +21253,7 @@
   {
     "id": 300,
     "name": "Skitty",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "normal"
     ],
@@ -21309,7 +21309,7 @@
   {
     "id": 301,
     "name": "Delcatty",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "normal"
     ],
@@ -21428,7 +21428,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark",
           "ghost"
@@ -21523,7 +21523,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel",
           "fairy"
@@ -21741,7 +21741,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel"
         ],
@@ -21894,7 +21894,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting",
           "psychic"
@@ -22048,7 +22048,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric"
         ],
@@ -22366,7 +22366,7 @@
   {
     "id": 316,
     "name": "Gulpin",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "poison"
     ],
@@ -22421,7 +22421,7 @@
   {
     "id": 317,
     "name": "Swalot",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "poison"
     ],
@@ -22575,7 +22575,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water",
           "dark"
@@ -22826,7 +22826,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire",
           "ground"
@@ -23505,7 +23505,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon",
           "fairy"
@@ -23543,7 +23543,7 @@
   {
     "id": 335,
     "name": "Zangoose",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "normal"
     ],
@@ -23598,7 +23598,7 @@
   {
     "id": 336,
     "name": "Seviper",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "poison"
     ],
@@ -24369,7 +24369,7 @@
   {
     "id": 351,
     "name": "Castform",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "normal"
     ],
@@ -24412,7 +24412,7 @@
       {
         "id": null,
         "name": "Sunny",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire"
         ],
@@ -24444,7 +24444,7 @@
       {
         "id": null,
         "name": "Rainy",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -24476,7 +24476,7 @@
       {
         "id": null,
         "name": "Snowy",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ice"
         ],
@@ -24657,7 +24657,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost"
         ],
@@ -24970,7 +24970,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark"
         ],
@@ -25190,7 +25190,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ice"
         ],
@@ -25802,7 +25802,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon",
           "flying"
@@ -26000,7 +26000,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel",
           "psychic"
@@ -26214,7 +26214,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon",
           "psychic"
@@ -26295,7 +26295,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon",
           "psychic"
@@ -26332,7 +26332,7 @@
   {
     "id": 382,
     "name": "Kyogre",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "water"
     ],
@@ -26376,7 +26376,7 @@
       {
         "id": null,
         "name": "Primal",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -26415,7 +26415,7 @@
   {
     "id": 383,
     "name": "Groudon",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "ground"
     ],
@@ -26459,7 +26459,7 @@
       {
         "id": null,
         "name": "Primal",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ground",
           "fire"
@@ -26544,7 +26544,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon",
           "flying"
@@ -26584,7 +26584,7 @@
   {
     "id": 385,
     "name": "Jirachi",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "steel",
       "psychic"
@@ -26622,7 +26622,7 @@
   {
     "id": 386,
     "name": "Deoxys",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic"
     ],
@@ -26665,7 +26665,7 @@
       {
         "id": null,
         "name": "Attack",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -26698,7 +26698,7 @@
       {
         "id": null,
         "name": "Defense",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -26731,7 +26731,7 @@
       {
         "id": null,
         "name": "Speed",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -28169,7 +28169,7 @@
   {
     "id": 412,
     "name": "Burmy",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug"
     ],
@@ -28226,7 +28226,7 @@
       {
         "id": null,
         "name": "Sandy",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug"
         ],
@@ -28260,7 +28260,7 @@
       {
         "id": null,
         "name": "Trash",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug"
         ],
@@ -28296,7 +28296,7 @@
   {
     "id": 413,
     "name": "Wormadam",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug",
       "grass"
@@ -28345,7 +28345,7 @@
       {
         "id": null,
         "name": "Sandy",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug",
           "ground"
@@ -28378,7 +28378,7 @@
       {
         "id": null,
         "name": "Trash",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug",
           "steel"
@@ -28413,7 +28413,7 @@
   {
     "id": 414,
     "name": "Mothim",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug",
       "flying"
@@ -28742,7 +28742,7 @@
   {
     "id": 420,
     "name": "Cherubi",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass"
     ],
@@ -28803,7 +28803,7 @@
   {
     "id": 421,
     "name": "Cherrim",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass"
     ],
@@ -28858,7 +28858,7 @@
       {
         "id": null,
         "name": "Sunshine",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass"
         ],
@@ -28940,7 +28940,7 @@
       {
         "id": null,
         "name": "East",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -29023,7 +29023,7 @@
       {
         "id": null,
         "name": "East",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water",
           "ground"
@@ -29356,7 +29356,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "fighting"
@@ -29660,7 +29660,7 @@
   {
     "id": 434,
     "name": "Stunky",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "poison",
       "dark"
@@ -29710,7 +29710,7 @@
   {
     "id": 435,
     "name": "Skuntank",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "poison",
       "dark"
@@ -30003,7 +30003,7 @@
       {
         "id": null,
         "name": "Galar-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "fairy"
@@ -30369,7 +30369,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon",
           "ground"
@@ -30576,7 +30576,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting",
           "steel"
@@ -31186,7 +31186,7 @@
   {
     "id": 459,
     "name": "Snover",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass",
       "ice"
@@ -31254,7 +31254,7 @@
   {
     "id": 460,
     "name": "Abomasnow",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass",
       "ice"
@@ -31316,7 +31316,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "ice"
@@ -32187,7 +32187,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "fighting"
@@ -32445,7 +32445,7 @@
       {
         "id": null,
         "name": "Heat",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "fire"
@@ -32478,7 +32478,7 @@
       {
         "id": null,
         "name": "Wash",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "water"
@@ -32511,7 +32511,7 @@
       {
         "id": null,
         "name": "Frost",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "ice"
@@ -32544,7 +32544,7 @@
       {
         "id": null,
         "name": "Fan",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "flying"
@@ -32577,7 +32577,7 @@
       {
         "id": null,
         "name": "Mow",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "grass"
@@ -32612,7 +32612,7 @@
   {
     "id": 480,
     "name": "Uxie",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic"
     ],
@@ -32649,7 +32649,7 @@
   {
     "id": 481,
     "name": "Mesprit",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic"
     ],
@@ -32686,7 +32686,7 @@
   {
     "id": 482,
     "name": "Azelf",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic"
     ],
@@ -32723,7 +32723,7 @@
   {
     "id": 483,
     "name": "Dialga",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "steel",
       "dragon"
@@ -32761,7 +32761,7 @@
       {
         "id": null,
         "name": "Origin",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel",
           "dragon"
@@ -32798,7 +32798,7 @@
   {
     "id": 484,
     "name": "Palkia",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "water",
       "dragon"
@@ -32836,7 +32836,7 @@
       {
         "id": null,
         "name": "Origin",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water",
           "dragon"
@@ -32873,7 +32873,7 @@
   {
     "id": 485,
     "name": "Heatran",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fire",
       "steel"
@@ -32961,7 +32961,7 @@
   {
     "id": 487,
     "name": "Giratina",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "ghost",
       "dragon"
@@ -32999,7 +32999,7 @@
       {
         "id": null,
         "name": "Origin",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost",
           "dragon"
@@ -33045,7 +33045,7 @@
   {
     "id": 488,
     "name": "Cresselia",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic"
     ],
@@ -33082,7 +33082,7 @@
   {
     "id": 489,
     "name": "Phione",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "water"
     ],
@@ -33127,7 +33127,7 @@
   {
     "id": 490,
     "name": "Manaphy",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "water"
     ],
@@ -33172,7 +33172,7 @@
   {
     "id": 491,
     "name": "Darkrai",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dark"
     ],
@@ -33222,7 +33222,7 @@
   {
     "id": 492,
     "name": "Shaymin",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass"
     ],
@@ -33258,7 +33258,7 @@
       {
         "id": null,
         "name": "Sky",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "flying"
@@ -33296,7 +33296,7 @@
   {
     "id": 493,
     "name": "Arceus",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "normal"
     ],
@@ -33332,7 +33332,7 @@
       {
         "id": null,
         "name": "Fighting",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting"
         ],
@@ -33358,7 +33358,7 @@
       {
         "id": null,
         "name": "Flying",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "flying"
         ],
@@ -33384,7 +33384,7 @@
       {
         "id": null,
         "name": "Poison",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "poison"
         ],
@@ -33410,7 +33410,7 @@
       {
         "id": null,
         "name": "Ground",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ground"
         ],
@@ -33436,7 +33436,7 @@
       {
         "id": null,
         "name": "Rock",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "rock"
         ],
@@ -33462,7 +33462,7 @@
       {
         "id": null,
         "name": "Bug",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug"
         ],
@@ -33488,7 +33488,7 @@
       {
         "id": null,
         "name": "Ghost",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost"
         ],
@@ -33514,7 +33514,7 @@
       {
         "id": null,
         "name": "Steel",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel"
         ],
@@ -33540,7 +33540,7 @@
       {
         "id": null,
         "name": "Fire",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire"
         ],
@@ -33566,7 +33566,7 @@
       {
         "id": null,
         "name": "Water",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -33592,7 +33592,7 @@
       {
         "id": null,
         "name": "Grass",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass"
         ],
@@ -33618,7 +33618,7 @@
       {
         "id": null,
         "name": "Electric",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric"
         ],
@@ -33644,7 +33644,7 @@
       {
         "id": null,
         "name": "Psychic",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -33670,7 +33670,7 @@
       {
         "id": null,
         "name": "Ice",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ice"
         ],
@@ -33696,7 +33696,7 @@
       {
         "id": null,
         "name": "Dragon",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon"
         ],
@@ -33722,7 +33722,7 @@
       {
         "id": null,
         "name": "Dark",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark"
         ],
@@ -33748,7 +33748,7 @@
       {
         "id": null,
         "name": "Fairy",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -33776,7 +33776,7 @@
   {
     "id": 494,
     "name": "Victini",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic",
       "fire"
@@ -34172,7 +34172,7 @@
       {
         "id": null,
         "name": "Hisui-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -34265,7 +34265,7 @@
       {
         "id": null,
         "name": "Hisui-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -34352,7 +34352,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water",
           "dark"
@@ -35925,7 +35925,7 @@
   {
     "id": 531,
     "name": "Audino",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "normal"
     ],
@@ -35974,7 +35974,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "fairy"
@@ -36172,7 +36172,7 @@
   {
     "id": 535,
     "name": "Tympole",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "water"
     ],
@@ -36227,7 +36227,7 @@
   {
     "id": 536,
     "name": "Palpitoad",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "water",
       "ground"
@@ -36283,7 +36283,7 @@
   {
     "id": 537,
     "name": "Seismitoad",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "water",
       "ground"
@@ -36994,7 +36994,7 @@
       {
         "id": null,
         "name": "Hisui-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass"
         ],
@@ -37088,7 +37088,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "fighting"
@@ -37196,7 +37196,7 @@
       {
         "id": null,
         "name": "Blue-Striped",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -37224,7 +37224,7 @@
       {
         "id": null,
         "name": "White-Striped",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -37471,7 +37471,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ice"
         ],
@@ -37560,7 +37560,7 @@
       {
         "id": null,
         "name": "Zen",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire",
           "psychic"
@@ -37593,7 +37593,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ice"
         ],
@@ -37634,7 +37634,7 @@
       {
         "id": null,
         "name": "Galar-Zen",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ice",
           "fire"
@@ -38083,7 +38083,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ground",
           "ghost"
@@ -38501,7 +38501,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "poison"
         ],
@@ -38583,7 +38583,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "ghost"
@@ -38673,7 +38673,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "ghost"
@@ -39525,7 +39525,7 @@
       {
         "id": null,
         "name": "Summer",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "grass"
@@ -39556,7 +39556,7 @@
       {
         "id": null,
         "name": "Autumn",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "grass"
@@ -39587,7 +39587,7 @@
       {
         "id": null,
         "name": "Winter",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "grass"
@@ -39670,7 +39670,7 @@
       {
         "id": null,
         "name": "Summer",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "grass"
@@ -39696,7 +39696,7 @@
       {
         "id": null,
         "name": "Autumn",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "grass"
@@ -39722,7 +39722,7 @@
       {
         "id": null,
         "name": "Winter",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "grass"
@@ -41474,7 +41474,7 @@
       {
         "id": null,
         "name": "Galar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ground",
           "steel"
@@ -41789,7 +41789,7 @@
   {
     "id": 624,
     "name": "Pawniard",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dark",
       "steel"
@@ -41845,7 +41845,7 @@
   {
     "id": 625,
     "name": "Bisharp",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dark",
       "steel"
@@ -42029,7 +42029,7 @@
       {
         "id": null,
         "name": "Hisui-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "flying"
@@ -42131,7 +42131,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "flying"
@@ -42195,7 +42195,7 @@
   {
     "id": 629,
     "name": "Vullaby",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dark",
       "flying"
@@ -42263,7 +42263,7 @@
   {
     "id": 630,
     "name": "Mandibuzz",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dark",
       "flying"
@@ -42723,7 +42723,7 @@
   {
     "id": 638,
     "name": "Cobalion",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "steel",
       "fighting"
@@ -42768,7 +42768,7 @@
   {
     "id": 639,
     "name": "Terrakion",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "rock",
       "fighting"
@@ -42813,7 +42813,7 @@
   {
     "id": 640,
     "name": "Virizion",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass",
       "fighting"
@@ -42858,7 +42858,7 @@
   {
     "id": 641,
     "name": "Tornadus",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "flying"
     ],
@@ -42894,7 +42894,7 @@
       {
         "id": null,
         "name": "Therian",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "flying"
         ],
@@ -42931,7 +42931,7 @@
   {
     "id": 642,
     "name": "Thundurus",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "electric",
       "flying"
@@ -42968,7 +42968,7 @@
       {
         "id": null,
         "name": "Therian",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "flying"
@@ -43006,7 +43006,7 @@
   {
     "id": 643,
     "name": "Reshiram",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dragon",
       "fire"
@@ -43052,7 +43052,7 @@
   {
     "id": 644,
     "name": "Zekrom",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dragon",
       "electric"
@@ -43098,7 +43098,7 @@
   {
     "id": 645,
     "name": "Landorus",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "ground",
       "flying"
@@ -43135,7 +43135,7 @@
       {
         "id": null,
         "name": "Therian",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ground",
           "flying"
@@ -43173,7 +43173,7 @@
   {
     "id": 646,
     "name": "Kyurem",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dragon",
       "ice"
@@ -43218,7 +43218,7 @@
       {
         "id": null,
         "name": "White",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon",
           "ice"
@@ -43255,7 +43255,7 @@
       {
         "id": null,
         "name": "Black",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon",
           "ice"
@@ -43294,7 +43294,7 @@
   {
     "id": 647,
     "name": "Keldeo",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "water",
       "fighting"
@@ -43331,7 +43331,7 @@
       {
         "id": null,
         "name": "Resolute",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water",
           "fighting"
@@ -43360,7 +43360,7 @@
   {
     "id": 648,
     "name": "Meloetta",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "normal",
       "psychic"
@@ -43397,7 +43397,7 @@
       {
         "id": null,
         "name": "Pirouette",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "fighting"
@@ -43433,7 +43433,7 @@
   {
     "id": 649,
     "name": "Genesect",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug",
       "steel"
@@ -43477,7 +43477,7 @@
       {
         "id": null,
         "name": "Douse",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug",
           "steel"
@@ -43504,7 +43504,7 @@
       {
         "id": null,
         "name": "Shock",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug",
           "steel"
@@ -43531,7 +43531,7 @@
       {
         "id": null,
         "name": "Burn",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug",
           "steel"
@@ -43558,7 +43558,7 @@
       {
         "id": null,
         "name": "Chill",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug",
           "steel"
@@ -44057,7 +44057,7 @@
       {
         "id": null,
         "name": "Bond",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water",
           "dark"
@@ -44087,7 +44087,7 @@
       {
         "id": null,
         "name": "Ash",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water",
           "dark"
@@ -44723,7 +44723,7 @@
       {
         "id": null,
         "name": "Pokeball",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug",
           "flying"
@@ -44923,7 +44923,7 @@
       {
         "id": null,
         "name": "Yellow",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -44953,7 +44953,7 @@
       {
         "id": null,
         "name": "Orange",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -44983,7 +44983,7 @@
       {
         "id": null,
         "name": "Blue",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -45013,7 +45013,7 @@
       {
         "id": null,
         "name": "White",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -45098,7 +45098,7 @@
       {
         "id": null,
         "name": "Yellow",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -45128,7 +45128,7 @@
       {
         "id": null,
         "name": "Orange",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -45158,7 +45158,7 @@
       {
         "id": null,
         "name": "Blue",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -45188,7 +45188,7 @@
       {
         "id": null,
         "name": "White",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -45218,7 +45218,7 @@
       {
         "id": null,
         "name": "Eternal",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -45315,7 +45315,7 @@
       {
         "id": null,
         "name": "Yellow",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -45340,7 +45340,7 @@
       {
         "id": null,
         "name": "Orange",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -45365,7 +45365,7 @@
       {
         "id": null,
         "name": "Blue",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -45390,7 +45390,7 @@
       {
         "id": null,
         "name": "White",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -45520,7 +45520,7 @@
   {
     "id": 674,
     "name": "Pancham",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fighting"
     ],
@@ -45582,7 +45582,7 @@
   {
     "id": 675,
     "name": "Pangoro",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fighting",
       "dark"
@@ -45694,7 +45694,7 @@
       {
         "id": null,
         "name": "Heart",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -45719,7 +45719,7 @@
       {
         "id": null,
         "name": "Star",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -45744,7 +45744,7 @@
       {
         "id": null,
         "name": "Diamond",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -45769,7 +45769,7 @@
       {
         "id": null,
         "name": "Debutante",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -45794,7 +45794,7 @@
       {
         "id": null,
         "name": "Matron",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -45819,7 +45819,7 @@
       {
         "id": null,
         "name": "Dandy",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -45844,7 +45844,7 @@
       {
         "id": null,
         "name": "La-Reine",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -45869,7 +45869,7 @@
       {
         "id": null,
         "name": "Kabuki",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -45894,7 +45894,7 @@
       {
         "id": null,
         "name": "Pharaoh",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -45919,7 +45919,7 @@
       {
         "id": null,
         "name": "Matcha",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -45944,7 +45944,7 @@
       {
         "id": null,
         "name": "Lavender",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -45969,7 +45969,7 @@
       {
         "id": null,
         "name": "Cinnamon",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -45994,7 +45994,7 @@
       {
         "id": null,
         "name": "Crusader",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -46019,7 +46019,7 @@
       {
         "id": null,
         "name": "Rocker",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -46044,7 +46044,7 @@
       {
         "id": null,
         "name": "Mourner",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -46167,7 +46167,7 @@
       {
         "id": null,
         "name": "F",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -46380,7 +46380,7 @@
       {
         "id": null,
         "name": "Blade",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel",
           "ghost"
@@ -47033,7 +47033,7 @@
   {
     "id": 694,
     "name": "Helioptile",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "electric",
       "normal"
@@ -47077,7 +47077,7 @@
   {
     "id": 695,
     "name": "Heliolisk",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "electric",
       "normal"
@@ -47583,7 +47583,7 @@
       {
         "id": null,
         "name": "Hisui-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon"
         ],
@@ -47682,7 +47682,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel",
           "dragon"
@@ -47808,7 +47808,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel",
           "dragon"
@@ -48099,7 +48099,7 @@
       {
         "id": null,
         "name": "Small",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost",
           "grass"
@@ -48137,7 +48137,7 @@
       {
         "id": null,
         "name": "Large",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost",
           "grass"
@@ -48175,7 +48175,7 @@
       {
         "id": null,
         "name": "Super",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost",
           "grass"
@@ -48271,7 +48271,7 @@
       {
         "id": null,
         "name": "Small",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost",
           "grass"
@@ -48304,7 +48304,7 @@
       {
         "id": null,
         "name": "Large",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost",
           "grass"
@@ -48337,7 +48337,7 @@
       {
         "id": null,
         "name": "Super",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost",
           "grass"
@@ -48480,7 +48480,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ice",
           "rock"
@@ -48678,7 +48678,7 @@
       {
         "id": null,
         "name": "Active",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -48707,7 +48707,7 @@
   {
     "id": 717,
     "name": "Yveltal",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dark",
       "flying"
@@ -48746,7 +48746,7 @@
   {
     "id": 718,
     "name": "Zygarde",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dragon",
       "ground"
@@ -48784,7 +48784,7 @@
       {
         "id": null,
         "name": "10%",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon",
           "ground"
@@ -48819,7 +48819,7 @@
       {
         "id": null,
         "name": "10%-C",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon",
           "ground"
@@ -48856,7 +48856,7 @@
       {
         "id": null,
         "name": "50%-C",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon",
           "ground"
@@ -48886,7 +48886,7 @@
       {
         "id": null,
         "name": "Complete",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon",
           "ground"
@@ -48925,7 +48925,7 @@
   {
     "id": 719,
     "name": "Diancie",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "rock",
       "fairy"
@@ -48962,7 +48962,7 @@
       {
         "id": null,
         "name": "Mega",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "rock",
           "fairy"
@@ -49001,7 +49001,7 @@
   {
     "id": 720,
     "name": "Hoopa",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic",
       "ghost"
@@ -49038,7 +49038,7 @@
       {
         "id": null,
         "name": "Unbound",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "dark"
@@ -49074,7 +49074,7 @@
   {
     "id": 721,
     "name": "Volcanion",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fire",
       "water"
@@ -49174,7 +49174,7 @@
       {
         "id": null,
         "name": "Hisui-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "flying"
@@ -49275,7 +49275,7 @@
       {
         "id": null,
         "name": "Hisui-Bias",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "flying"
@@ -49370,7 +49370,7 @@
       {
         "id": null,
         "name": "Hisui",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "fighting"
@@ -49997,7 +49997,7 @@
   {
     "id": 736,
     "name": "Grubbin",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug"
     ],
@@ -50057,7 +50057,7 @@
   {
     "id": 737,
     "name": "Charjabug",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug",
       "electric"
@@ -50118,7 +50118,7 @@
   {
     "id": 738,
     "name": "Vikavolt",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug",
       "electric"
@@ -50262,7 +50262,7 @@
   {
     "id": 741,
     "name": "Oricorio",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fire",
       "flying"
@@ -50323,7 +50323,7 @@
       {
         "id": null,
         "name": "Pom-Pom",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "flying"
@@ -50349,7 +50349,7 @@
       {
         "id": null,
         "name": "Pa'u",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "flying"
@@ -50375,7 +50375,7 @@
       {
         "id": null,
         "name": "Sensu",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost",
           "flying"
@@ -50512,7 +50512,7 @@
   {
     "id": 744,
     "name": "Rockruff",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "rock"
     ],
@@ -50582,7 +50582,7 @@
       {
         "id": null,
         "name": "Dusk",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "rock"
         ],
@@ -50616,7 +50616,7 @@
   {
     "id": 745,
     "name": "Lycanroc",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "rock"
     ],
@@ -50677,7 +50677,7 @@
       {
         "id": null,
         "name": "Midnight",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "rock"
         ],
@@ -50712,7 +50712,7 @@
       {
         "id": null,
         "name": "Dusk",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "rock"
         ],
@@ -50796,7 +50796,7 @@
       {
         "id": null,
         "name": "School",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -51843,7 +51843,7 @@
   {
     "id": 765,
     "name": "Oranguru",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "normal",
       "psychic"
@@ -51894,7 +51894,7 @@
   {
     "id": 766,
     "name": "Passimian",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fighting"
     ],
@@ -52198,7 +52198,7 @@
   {
     "id": 772,
     "name": "Type: Null",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "normal"
     ],
@@ -52240,7 +52240,7 @@
   {
     "id": 773,
     "name": "Silvally",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "normal"
     ],
@@ -52276,7 +52276,7 @@
       {
         "id": null,
         "name": "Fighting",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting"
         ],
@@ -52302,7 +52302,7 @@
       {
         "id": null,
         "name": "Flying",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "flying"
         ],
@@ -52328,7 +52328,7 @@
       {
         "id": null,
         "name": "Poison",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "poison"
         ],
@@ -52354,7 +52354,7 @@
       {
         "id": null,
         "name": "Ground",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ground"
         ],
@@ -52380,7 +52380,7 @@
       {
         "id": null,
         "name": "Rock",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "rock"
         ],
@@ -52406,7 +52406,7 @@
       {
         "id": null,
         "name": "Bug",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug"
         ],
@@ -52432,7 +52432,7 @@
       {
         "id": null,
         "name": "Ghost",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost"
         ],
@@ -52458,7 +52458,7 @@
       {
         "id": null,
         "name": "Steel",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel"
         ],
@@ -52484,7 +52484,7 @@
       {
         "id": null,
         "name": "Fire",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire"
         ],
@@ -52510,7 +52510,7 @@
       {
         "id": null,
         "name": "Water",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -52536,7 +52536,7 @@
       {
         "id": null,
         "name": "Grass",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass"
         ],
@@ -52562,7 +52562,7 @@
       {
         "id": null,
         "name": "Electric",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric"
         ],
@@ -52588,7 +52588,7 @@
       {
         "id": null,
         "name": "Psychic",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic"
         ],
@@ -52614,7 +52614,7 @@
       {
         "id": null,
         "name": "Ice",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ice"
         ],
@@ -52640,7 +52640,7 @@
       {
         "id": null,
         "name": "Dragon",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon"
         ],
@@ -52666,7 +52666,7 @@
       {
         "id": null,
         "name": "Dark",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark"
         ],
@@ -52692,7 +52692,7 @@
       {
         "id": null,
         "name": "Fairy",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -52720,7 +52720,7 @@
   {
     "id": 774,
     "name": "Minior",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "rock",
       "flying"
@@ -52763,7 +52763,7 @@
       {
         "id": null,
         "name": "Meteor",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "rock",
           "flying"
@@ -53005,7 +53005,7 @@
       {
         "id": null,
         "name": "Busted",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost",
           "fairy"
@@ -53373,7 +53373,7 @@
   {
     "id": 785,
     "name": "Tapu Koko",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "electric",
       "fairy"
@@ -53411,7 +53411,7 @@
   {
     "id": 786,
     "name": "Tapu Lele",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic",
       "fairy"
@@ -53449,7 +53449,7 @@
   {
     "id": 787,
     "name": "Tapu Bulu",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass",
       "fairy"
@@ -53487,7 +53487,7 @@
   {
     "id": 788,
     "name": "Tapu Fini",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "water",
       "fairy"
@@ -53525,7 +53525,7 @@
   {
     "id": 789,
     "name": "Cosmog",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic"
     ],
@@ -53568,7 +53568,7 @@
   {
     "id": 790,
     "name": "Cosmoem",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic"
     ],
@@ -53615,7 +53615,7 @@
   {
     "id": 791,
     "name": "Solgaleo",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic",
       "steel"
@@ -53654,7 +53654,7 @@
   {
     "id": 792,
     "name": "Lunala",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic",
       "ghost"
@@ -53700,7 +53700,7 @@
   {
     "id": 793,
     "name": "Nihilego",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "rock",
       "poison"
@@ -53745,7 +53745,7 @@
   {
     "id": 794,
     "name": "Buzzwole",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug",
       "fighting"
@@ -53790,7 +53790,7 @@
   {
     "id": 795,
     "name": "Pheromosa",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug",
       "fighting"
@@ -53835,7 +53835,7 @@
   {
     "id": 796,
     "name": "Xurkitree",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "electric"
     ],
@@ -53879,7 +53879,7 @@
   {
     "id": 797,
     "name": "Celesteela",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "steel",
       "flying"
@@ -53924,7 +53924,7 @@
   {
     "id": 798,
     "name": "Kartana",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass",
       "steel"
@@ -53969,7 +53969,7 @@
   {
     "id": 799,
     "name": "Guzzlord",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dark",
       "dragon"
@@ -54014,7 +54014,7 @@
   {
     "id": 800,
     "name": "Necrozma",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic"
     ],
@@ -54051,7 +54051,7 @@
       {
         "id": null,
         "name": "Dusk-Mane",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "steel"
@@ -54086,7 +54086,7 @@
       {
         "id": null,
         "name": "Dawn-Wings",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "ghost"
@@ -54121,7 +54121,7 @@
       {
         "id": null,
         "name": "Ultra",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "dragon"
@@ -54161,7 +54161,7 @@
   {
     "id": 801,
     "name": "Magearna",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "steel",
       "fairy"
@@ -54198,7 +54198,7 @@
       {
         "id": null,
         "name": "Original",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel",
           "fairy"
@@ -54227,7 +54227,7 @@
   {
     "id": 802,
     "name": "Marshadow",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fighting",
       "ghost"
@@ -54359,7 +54359,7 @@
   {
     "id": 805,
     "name": "Stakataka",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "rock",
       "steel"
@@ -54404,7 +54404,7 @@
   {
     "id": 806,
     "name": "Blacephalon",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fire",
       "ghost"
@@ -54449,7 +54449,7 @@
   {
     "id": 807,
     "name": "Zeraora",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "electric"
     ],
@@ -54486,7 +54486,7 @@
   {
     "id": 808,
     "name": "Meltan",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "steel"
     ],
@@ -54523,7 +54523,7 @@
   {
     "id": 809,
     "name": "Melmetal",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "steel"
     ],
@@ -54559,7 +54559,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel"
         ],
@@ -54747,7 +54747,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass"
         ],
@@ -54971,7 +54971,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire"
         ],
@@ -55141,7 +55141,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -55450,7 +55450,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "flying",
           "steel"
@@ -55479,7 +55479,7 @@
   {
     "id": 824,
     "name": "Blipbug",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug"
     ],
@@ -55534,7 +55534,7 @@
   {
     "id": 825,
     "name": "Dottler",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug",
       "psychic"
@@ -55590,7 +55590,7 @@
   {
     "id": 826,
     "name": "Orbeetle",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug",
       "psychic"
@@ -55640,7 +55640,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "bug",
           "psychic"
@@ -56097,7 +56097,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water",
           "rock"
@@ -56229,7 +56229,7 @@
   {
     "id": 837,
     "name": "Rolycoly",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "rock"
     ],
@@ -56290,7 +56290,7 @@
   {
     "id": 838,
     "name": "Carkol",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "rock",
       "fire"
@@ -56352,7 +56352,7 @@
   {
     "id": 839,
     "name": "Coalossal",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "rock",
       "fire"
@@ -56408,7 +56408,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "rock",
           "fire"
@@ -56437,7 +56437,7 @@
   {
     "id": 840,
     "name": "Applin",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass",
       "dragon"
@@ -56502,7 +56502,7 @@
   {
     "id": 841,
     "name": "Flapple",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass",
       "dragon"
@@ -56553,7 +56553,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "dragon"
@@ -56582,7 +56582,7 @@
   {
     "id": 842,
     "name": "Appletun",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass",
       "dragon"
@@ -56633,7 +56633,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "dragon"
@@ -56756,7 +56756,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ground"
         ],
@@ -56846,7 +56846,7 @@
       {
         "id": null,
         "name": "Gulping",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "flying",
           "water"
@@ -56872,7 +56872,7 @@
       {
         "id": null,
         "name": "Gorging",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "flying",
           "water"
@@ -57194,7 +57194,7 @@
       {
         "id": null,
         "name": "Low-Key",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "poison"
@@ -57223,7 +57223,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "poison"
@@ -57250,7 +57250,7 @@
       {
         "id": null,
         "name": "Low-Key-Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "poison"
@@ -57388,7 +57388,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fire",
           "bug"
@@ -57570,7 +57570,7 @@
       {
         "id": null,
         "name": "Antique",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost"
         ],
@@ -57645,7 +57645,7 @@
       {
         "id": null,
         "name": "Antique",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost"
         ],
@@ -57814,7 +57814,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "fairy"
@@ -57990,7 +57990,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark",
           "fairy"
@@ -58265,7 +58265,7 @@
   {
     "id": 867,
     "name": "Runerigus",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "ground",
       "ghost"
@@ -58656,7 +58656,7 @@
       {
         "id": null,
         "name": "Ruby-Cream",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -58681,7 +58681,7 @@
       {
         "id": null,
         "name": "Matcha-Cream",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -58706,7 +58706,7 @@
       {
         "id": null,
         "name": "Mint-Cream",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -58731,7 +58731,7 @@
       {
         "id": null,
         "name": "Lemon-Cream",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -58756,7 +58756,7 @@
       {
         "id": null,
         "name": "Salted-Cream",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -58781,7 +58781,7 @@
       {
         "id": null,
         "name": "Ruby-Swirl",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -58806,7 +58806,7 @@
       {
         "id": null,
         "name": "Caramel-Swirl",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -58831,7 +58831,7 @@
       {
         "id": null,
         "name": "Rainbow-Swirl",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -58856,7 +58856,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy"
         ],
@@ -58971,7 +58971,7 @@
   {
     "id": 872,
     "name": "Snom",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "ice",
       "bug"
@@ -59032,7 +59032,7 @@
   {
     "id": 873,
     "name": "Frosmoth",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "ice",
       "bug"
@@ -59204,7 +59204,7 @@
       {
         "id": null,
         "name": "Noice-Face",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ice"
         ],
@@ -59263,7 +59263,7 @@
   {
     "id": 876,
     "name": "Indeedee",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic",
       "normal"
@@ -59313,7 +59313,7 @@
       {
         "id": null,
         "name": "F",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "normal"
@@ -59395,7 +59395,7 @@
       {
         "id": null,
         "name": "Hangry",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "electric",
           "dark"
@@ -59539,7 +59539,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel"
         ],
@@ -59771,7 +59771,7 @@
   {
     "id": 884,
     "name": "Duraludon",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "steel",
       "dragon"
@@ -59821,7 +59821,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "steel",
           "dragon"
@@ -60017,7 +60017,7 @@
   {
     "id": 888,
     "name": "Zacian",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fairy"
     ],
@@ -60061,7 +60061,7 @@
       {
         "id": null,
         "name": "Crowned",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy",
           "steel"
@@ -60098,7 +60098,7 @@
   {
     "id": 889,
     "name": "Zamazenta",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fighting"
     ],
@@ -60142,7 +60142,7 @@
       {
         "id": null,
         "name": "Crowned",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting",
           "steel"
@@ -60179,7 +60179,7 @@
   {
     "id": 890,
     "name": "Eternatus",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "poison",
       "dragon"
@@ -60217,7 +60217,7 @@
       {
         "id": null,
         "name": "Eternamax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "poison",
           "dragon"
@@ -60254,7 +60254,7 @@
   {
     "id": 891,
     "name": "Kubfu",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fighting"
     ],
@@ -60300,7 +60300,7 @@
   {
     "id": 892,
     "name": "Urshifu",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fighting",
       "dark"
@@ -60337,7 +60337,7 @@
       {
         "id": null,
         "name": "Rapid-Strike",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting",
           "water"
@@ -60364,7 +60364,7 @@
       {
         "id": null,
         "name": "Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting",
           "dark"
@@ -60391,7 +60391,7 @@
       {
         "id": null,
         "name": "Rapid-Strike-Gmax",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fighting",
           "water"
@@ -60457,7 +60457,7 @@
       {
         "id": null,
         "name": "Dada",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dark",
           "grass"
@@ -60560,7 +60560,7 @@
   {
     "id": 896,
     "name": "Glastrier",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "ice"
     ],
@@ -60597,7 +60597,7 @@
   {
     "id": 897,
     "name": "Spectrier",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "ghost"
     ],
@@ -60634,7 +60634,7 @@
   {
     "id": 898,
     "name": "Calyrex",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "psychic",
       "grass"
@@ -60672,7 +60672,7 @@
       {
         "id": null,
         "name": "Ice",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "ice"
@@ -60716,7 +60716,7 @@
       {
         "id": null,
         "name": "Shadow",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "psychic",
           "ghost"
@@ -60926,7 +60926,7 @@
       {
         "id": null,
         "name": "Bloodmoon",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ground",
           "normal"
@@ -61013,7 +61013,7 @@
       {
         "id": null,
         "name": "F",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water",
           "ghost"
@@ -61162,7 +61162,7 @@
   {
     "id": 905,
     "name": "Enamorus",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fairy",
       "flying"
@@ -61199,7 +61199,7 @@
       {
         "id": null,
         "name": "Therian",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "fairy",
           "flying"
@@ -61774,7 +61774,7 @@
       {
         "id": null,
         "name": "F",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -61914,7 +61914,7 @@
   {
     "id": 919,
     "name": "Nymble",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug"
     ],
@@ -61962,7 +61962,7 @@
   {
     "id": 920,
     "name": "Lokix",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug",
       "dark"
@@ -62006,7 +62006,7 @@
   {
     "id": 921,
     "name": "Pawmi",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "electric"
     ],
@@ -62055,7 +62055,7 @@
   {
     "id": 922,
     "name": "Pawmo",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "electric",
       "fighting"
@@ -62105,7 +62105,7 @@
   {
     "id": 923,
     "name": "Pawmot",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "electric",
       "fighting"
@@ -62256,7 +62256,7 @@
       {
         "id": null,
         "name": "Four",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -62604,7 +62604,7 @@
       {
         "id": null,
         "name": "Blue",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "flying"
@@ -62630,7 +62630,7 @@
       {
         "id": null,
         "name": "Yellow",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "flying"
@@ -62659,7 +62659,7 @@
       {
         "id": null,
         "name": "White",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal",
           "flying"
@@ -64293,7 +64293,7 @@
   {
     "id": 962,
     "name": "Bombirdier",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "flying",
       "dark"
@@ -64442,7 +64442,7 @@
       {
         "id": null,
         "name": "Hero",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "water"
         ],
@@ -64803,7 +64803,7 @@
   {
     "id": 971,
     "name": "Greavard",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "ghost"
     ],
@@ -64869,7 +64869,7 @@
   {
     "id": 972,
     "name": "Houndstone",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "ghost"
     ],
@@ -65247,7 +65247,7 @@
       {
         "id": null,
         "name": "Droopy",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon",
           "water"
@@ -65273,7 +65273,7 @@
       {
         "id": null,
         "name": "Stretchy",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "dragon",
           "water"
@@ -65510,7 +65510,7 @@
       {
         "id": null,
         "name": "Three-Segment",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -65537,7 +65537,7 @@
   {
     "id": 983,
     "name": "Kingambit",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dark",
       "steel"
@@ -65588,7 +65588,7 @@
   {
     "id": 984,
     "name": "Great Tusk",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "ground",
       "fighting"
@@ -65626,7 +65626,7 @@
   {
     "id": 985,
     "name": "Scream Tail",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fairy",
       "psychic"
@@ -65664,7 +65664,7 @@
   {
     "id": 986,
     "name": "Brute Bonnet",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass",
       "dark"
@@ -65702,7 +65702,7 @@
   {
     "id": 987,
     "name": "Flutter Mane",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "ghost",
       "fairy"
@@ -65753,7 +65753,7 @@
   {
     "id": 988,
     "name": "Slither Wing",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "bug",
       "fighting"
@@ -65791,7 +65791,7 @@
   {
     "id": 989,
     "name": "Sandy Shocks",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "electric",
       "ground"
@@ -65829,7 +65829,7 @@
   {
     "id": 990,
     "name": "Iron Treads",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "ground",
       "steel"
@@ -65867,7 +65867,7 @@
   {
     "id": 991,
     "name": "Iron Bundle",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "ice",
       "water"
@@ -65905,7 +65905,7 @@
   {
     "id": 992,
     "name": "Iron Hands",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fighting",
       "electric"
@@ -65943,7 +65943,7 @@
   {
     "id": 993,
     "name": "Iron Jugulis",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dark",
       "flying"
@@ -65981,7 +65981,7 @@
   {
     "id": 994,
     "name": "Iron Moth",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fire",
       "poison"
@@ -66019,7 +66019,7 @@
   {
     "id": 995,
     "name": "Iron Thorns",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "rock",
       "electric"
@@ -66057,7 +66057,7 @@
   {
     "id": 996,
     "name": "Frigibax",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dragon",
       "ice"
@@ -66107,7 +66107,7 @@
   {
     "id": 997,
     "name": "Arctibax",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dragon",
       "ice"
@@ -66157,7 +66157,7 @@
   {
     "id": 998,
     "name": "Baxcalibur",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dragon",
       "ice"
@@ -66282,7 +66282,7 @@
       {
         "id": null,
         "name": "Roaming",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "ghost"
         ],
@@ -66406,7 +66406,7 @@
   {
     "id": 1001,
     "name": "Wo-Chien",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dark",
       "grass"
@@ -66444,7 +66444,7 @@
   {
     "id": 1002,
     "name": "Chien-Pao",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dark",
       "ice"
@@ -66482,7 +66482,7 @@
   {
     "id": 1003,
     "name": "Ting-Lu",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dark",
       "ground"
@@ -66520,7 +66520,7 @@
   {
     "id": 1004,
     "name": "Chi-Yu",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dark",
       "fire"
@@ -66558,7 +66558,7 @@
   {
     "id": 1005,
     "name": "Roaring Moon",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "dragon",
       "dark"
@@ -66596,7 +66596,7 @@
   {
     "id": 1006,
     "name": "Iron Valiant",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fairy",
       "fighting"
@@ -66634,7 +66634,7 @@
   {
     "id": 1007,
     "name": "Koraidon",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fighting",
       "dragon"
@@ -66673,7 +66673,7 @@
   {
     "id": 1008,
     "name": "Miraidon",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "electric",
       "dragon"
@@ -66788,7 +66788,7 @@
   {
     "id": 1011,
     "name": "Dipplin",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass",
       "dragon"
@@ -66881,7 +66881,7 @@
       {
         "id": null,
         "name": "Artisan",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "ghost"
@@ -66958,7 +66958,7 @@
       {
         "id": null,
         "name": "Masterpiece",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "ghost"
@@ -66986,7 +66986,7 @@
   {
     "id": 1014,
     "name": "Okidogi",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "poison",
       "fighting"
@@ -67024,7 +67024,7 @@
   {
     "id": 1015,
     "name": "Munkidori",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "poison",
       "psychic"
@@ -67062,7 +67062,7 @@
   {
     "id": 1016,
     "name": "Fezandipiti",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "poison",
       "fairy"
@@ -67107,7 +67107,7 @@
   {
     "id": 1017,
     "name": "Ogerpon",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass"
     ],
@@ -67143,7 +67143,7 @@
       {
         "id": null,
         "name": "Wellspring",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "water"
@@ -67172,7 +67172,7 @@
       {
         "id": null,
         "name": "Hearthflame",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "fire"
@@ -67201,7 +67201,7 @@
       {
         "id": null,
         "name": "Cornerstone",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "rock"
@@ -67230,7 +67230,7 @@
       {
         "id": null,
         "name": "Teal-Tera",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass"
         ],
@@ -67258,7 +67258,7 @@
       {
         "id": null,
         "name": "Wellspring-Tera",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "water"
@@ -67287,7 +67287,7 @@
       {
         "id": null,
         "name": "Hearthflame-Tera",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "fire"
@@ -67316,7 +67316,7 @@
       {
         "id": null,
         "name": "Cornerstone-Tera",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "grass",
           "rock"
@@ -67347,7 +67347,7 @@
   {
     "id": 1018,
     "name": "Archaludon",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "steel",
       "dragon"
@@ -67386,7 +67386,7 @@
   {
     "id": 1019,
     "name": "Hydrapple",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "grass",
       "dragon"
@@ -67425,7 +67425,7 @@
   {
     "id": 1020,
     "name": "Gouging Fire",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "fire",
       "dragon"
@@ -67463,7 +67463,7 @@
   {
     "id": 1021,
     "name": "Raging Bolt",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "electric",
       "dragon"
@@ -67501,7 +67501,7 @@
   {
     "id": 1022,
     "name": "Iron Boulder",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "rock",
       "psychic"
@@ -67539,7 +67539,7 @@
   {
     "id": 1023,
     "name": "Iron Crown",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "steel",
       "psychic"
@@ -67577,7 +67577,7 @@
   {
     "id": 1024,
     "name": "Terapagos",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "normal"
     ],
@@ -67614,7 +67614,7 @@
       {
         "id": null,
         "name": "Terastal",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -67650,7 +67650,7 @@
       {
         "id": null,
         "name": "Stellar",
-        "implemented": true,
+        "implemented": null,
         "types": [
           "normal"
         ],
@@ -67688,7 +67688,7 @@
   {
     "id": 1025,
     "name": "Pecharunt",
-    "implemented": true,
+    "implemented": null,
     "types": [
       "poison",
       "ghost"
